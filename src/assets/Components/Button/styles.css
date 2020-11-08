@@ -1,0 +1,6 @@
+.default-button {
+    background: conic-gradient(from 176.27deg at 25.17% -275.89%, #E06AB1 0deg, #E06AB1 15deg, #8CEEB8 352.5deg, #E06AB1 360deg);
+    border-radius: 11px;
+
+    text-decoration: none;
+}
