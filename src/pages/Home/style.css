@@ -1,0 +1,23 @@
+#homepage-container{
+    width: 100vw;   
+    height: 100vh;
+    background-color: var(--background-color);
+    background-image: url(../../assets/images/movie\ 1.png);
+    background-position: bottom 0rem right 0rem ;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#homepage-container header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#homepage-container header nav {
+    display: flex;
+}
+
+#homepage-container header nav ul {
+    display: flex;
+
+}
