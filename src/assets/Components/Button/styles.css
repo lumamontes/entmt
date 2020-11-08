@@ -1,6 +1,20 @@
 .default-button {
-    background: conic-gradient(from 176.27deg at 25.17% -275.89%, #E06AB1 0deg, #E06AB1 15deg, #8CEEB8 352.5deg, #E06AB1 360deg);
+    background-image: linear-gradient(to right, var(--main-button-color) , var(--secondary-button-color));
     border-radius: 11px;
 
+    padding: 21px 8%;
     text-decoration: none;
+
+    color: var(--color-text-base);
+
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    transition: background-color 0.2s;
+
+
+}
+
+.default-button:hover {
+    background: black;
+
 }
