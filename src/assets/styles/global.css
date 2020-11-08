@@ -2,33 +2,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-
-#root {
-    background-color: red;
+    text-decoration: none;
 }
 
 :root {
     font-size: 60%;
     
-    --color-background: #ffffff;
-    
-    --color-behind-background: #F0F0F0 ;
-    
-    --main-color: #FF0000 ;
-    
-    --soft-main-color: #F05E5E ;
-    --color-base: black ;
-    
-    --color-button: #524d4d ;
+    --background-color: rgb(24, 24, 24);   
+    --color-text-base:  #FFFFFF;
+
+    --main-button-color: #E06AB1 ;
+    --secondary-button-color: #8CEEB8 ; 
     
     }
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body, input, button, textarea{
+    color: var(--color-text-base);
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.6rem;
+}
+
+.titulo {
+    font-family: 'Krona One', sans-serif;
+}
+
+
+li {
+    list-style-type: none;
+}
 
 
     @media (min-width: 700px){
         :root{
-            font-size: 65%;
+            font-size: 62.5%;
         }
     
     }
