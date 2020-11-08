@@ -8,3 +8,27 @@
 #root {
     background-color: red;
 }
+
+:root {
+    font-size: 60%;
+    
+    --color-background: #ffffff;
+    
+    --color-behind-background: #F0F0F0 ;
+    
+    --main-color: #FF0000 ;
+    
+    --soft-main-color: #F05E5E ;
+    --color-base: black ;
+    
+    --color-button: #524d4d ;
+    
+    }
+
+
+    @media (min-width: 700px){
+        :root{
+            font-size: 65%;
+        }
+    
+    }
