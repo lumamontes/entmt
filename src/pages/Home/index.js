@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css'
 import Button from '../../assets/Components/Button'
 import SmallButton from '../../assets/Components/SmallButton'
+import { Link } from 'react-router-dom'
 
 function Home () {
     return (
@@ -10,8 +11,8 @@ function Home () {
                 <img src="" alt=""/>
                 <nav>
                     <ul>
-                        <li>movies</li>
-                        <li>login</li>
+                        <li><Link to="">movies</Link></li>
+                        <li><Link to="">login</Link></li>
                     </ul>
                     <SmallButton link="/start" content="Sign Up"/>
                 </nav>
