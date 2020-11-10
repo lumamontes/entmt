@@ -1,20 +1,19 @@
 .default-button {
-    background-image: linear-gradient(to right, var(--main-button-color) , var(--secondary-button-color));
+    background: linear-gradient(to right, var(--main-button-color) , var(--secondary-button-color));
     border-radius: 11px;
 
-    padding: 21px 8%;
+    padding:   2.5rem 15rem;
     text-decoration: none;
 
     color: var(--color-text-base);
 
     font-weight: bold;
     letter-spacing: 0.5rem;
-    transition: background-color 0.2s;
+    transition: 200ms;
 
-
+    display: inline-block;
 }
 
 .default-button:hover {
     background: black;
-
 }

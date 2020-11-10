@@ -2,7 +2,7 @@
     background-image: linear-gradient(to right, var(--main-button-color) , var(--secondary-button-color));
     border-radius: 11px;
 
-    padding: 20px 4rem;
+    padding: 2rem 4rem;
     text-decoration: none;
 
     color: var(--color-text-base);
@@ -10,6 +10,7 @@
     font-weight: bold;
     letter-spacing: 0.5rem;
 
+    display: inline-block;
 
 }
 
