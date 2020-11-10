@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 
 function Home () {
     return (
+
         <div id="homepage-container">
             <header>
                 <img src="" alt=""/>
@@ -27,6 +28,7 @@ function Home () {
             </div>  
 
         </div>
+    
     )
 }
 

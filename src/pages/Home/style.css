@@ -1,10 +1,11 @@
+
 #homepage-container{
     width: 100vw;   
     height: 100vh;
     background-color: var(--background-color);
     background-image: url(../../assets/images/movie\ 1.png);
-    background-position: bottom 0rem right 0rem;
-    background-size: contain;
+    background-position: bottom 0 right 1rem;
+    background-size: 36% 100%;
     background-repeat: no-repeat;
 
     display: flex;
@@ -37,4 +38,8 @@
 #homepage-container #homepage-content {
     max-width: 850px;
     padding: 1.5rem 5rem;
+}
+
+#homepage-container #homepage-content h1.title{
+    margin-bottom: 2rem;
 }
