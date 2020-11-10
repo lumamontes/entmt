@@ -28,13 +28,22 @@ body, input, button, textarea{
     font-size: 1.6rem;
 }
 
-.titulo {
+.title {
     font-family: 'Krona One', sans-serif;
+    font-size: 8rem;
+    background: -webkit-linear-gradient( #8CEEB8,#E06AB1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
 li {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text-base);
 }
 
 
